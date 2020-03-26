@@ -49,7 +49,7 @@ export abstract class Tag
     {
         if (new.target === Tag)
         {
-            throw new TypeError(`Cannot create an instance of the abstract class \`${ getVariableName({ Tag }) }\`.`);
+            throw new TypeError(`Cannot create an instance of the abstract class \`${ Tag.name }\`.`);
         }
     }
 
