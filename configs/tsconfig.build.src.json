@@ -1,0 +1,22 @@
+{
+    "extends": "./tsconfig.build.json",
+    "compilerOptions": {
+        "target": "ES2015",
+        "module": "CommonJS",
+        "rootDir": "../src",
+        "outDir": "../",
+        "lib": [
+            "DOM",
+            "ES2015",
+            "ESNext.BigInt",
+        ],
+        "alwaysStrict": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+    },
+    "include": [
+        "../src/**/*.ts",
+    ],
+}
