@@ -1,5 +1,6 @@
 {
     "mode": "file",
     "out": "docs",
+    "tsconfig": "./configs/tsconfig.build.src.json",
     "excludePrivate": true
 }
