@@ -19,7 +19,7 @@
     "test": "npx jest --config=\"configs/jest.config.json\"",
     "test:coverage": "npm run test -- --coverage",
     "build": "npx run-p -ln build:*",
-    "build:docs": "npx typedoc --options \"./configs/typedoc.json\" --tsconfig \"./configs/tsconfig.build.src.json\" src",
+    "build:docs": "npx typedoc --options ./configs/typedoc.json src",
     "build:src": "npx run-p -ln build:src:*",
     "build:src:library": "npx tsc --project \"./configs/tsconfig.build.src.library.json\"",
     "build:src:declare": "npx tsc --project \"./configs/tsconfig.build.src.declare.json\"",
@@ -42,7 +42,7 @@
     "ow": "^0.17.0",
     "reflect-metadata": "^0.1.13",
     "ts-toolbelt": "^6.8.0",
-    "type-fest": "^0.12.0"
+    "type-fest": "^0.13.1"
   },
   "devDependencies": {
     "@types/jest": "^25.2.2",
@@ -50,9 +50,9 @@
     "@types/lodash.isnumber": "^3.0.6",
     "@types/lodash.isstring": "^4.0.6",
     "@types/lodash.isundefined": "^3.0.6",
-    "jest": "^25.5.4",
-    "ts-jest": "^25.5.1",
-    "typedoc": "^0.16.11",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.0.0",
+    "typedoc": "^0.17.7",
     "typescript": "^3.9.2"
   }
 }
