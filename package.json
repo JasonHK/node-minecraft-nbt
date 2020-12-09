@@ -45,6 +45,7 @@
     "type-fest": "^0.13.1"
   },
   "devDependencies": {
+    "@jasonhk/typescript-config": "^1.0.1",
     "@types/jest": "^25.2.2",
     "@types/lodash.isinteger": "^4.0.6",
     "@types/lodash.isnumber": "^3.0.6",
